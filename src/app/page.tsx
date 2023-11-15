@@ -10,7 +10,7 @@ export default function Home() {
 
   // Use useEffect to set up the interval for refreshing
   useEffect(() => {
-    const intervalId = setInterval(refreshPage, 10000);
+    const intervalId = setInterval(refreshPage, 20000);
 
     // Clear the interval when the component is unmounted
     return () => clearInterval(intervalId);
