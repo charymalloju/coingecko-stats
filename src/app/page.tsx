@@ -7,12 +7,12 @@ export default function Home() {
         
       <Script src="https://widgets.coingecko.com/coingecko-coin-price-static-headline-widget.js"></Script>
         {/* @ts-ignore */}
-        <coingecko-coin-price-static-headline-widget coin-ids="celestia,cosmos,osmosis" currency="usd" locale="en" async></coingecko-coin-price-static-headline-widget>
+        <coingecko-coin-price-static-headline-widget coin-ids="bitcoin,celestia,cosmos,osmosis" currency="usd" locale="en" async></coingecko-coin-price-static-headline-widget>
 
         
         <Script src="https://widgets.coingecko.com/coingecko-coin-compare-chart-widget.js"></Script>
          {/* @ts-ignore */}
-        <coingecko-coin-compare-chart-widget coin-ids="celestia,cosmos,osmosis" currency="usd" locale="en" async></coingecko-coin-compare-chart-widget>
+        <coingecko-coin-compare-chart-widget coin-ids="bitcoin,celestia,cosmos,osmosis" currency="usd" locale="en" async></coingecko-coin-compare-chart-widget>
       </div>
     </main>
   )
