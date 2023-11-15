@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 
 setTimeout(function(){
   console.log("refreshed")
-   window.location.reload(1);
+   window.location.reload();
 }, 10000);
 
 export default function RootLayout({
